@@ -1,0 +1,13 @@
+
+local placeId = game.PlaceId
+
+
+if placeId == 4442272183 then
+    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_AUTO_CHEST_SEA2/refs/heads/main/TICKEN_AUTO_CHEST_SEA2"))()
+elseif placeId == 7449423635 then
+    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TITICKEN_AUTO_CHEST_SEA3/refs/heads/main/TICKEN_AUTO_CHEST_SEA3"))()
+else
+    warn("Không phải ở Sea 2 hoặc Sea 3. Script không chạy.")
+end
